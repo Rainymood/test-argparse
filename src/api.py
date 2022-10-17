@@ -12,3 +12,5 @@ if __name__ == "__main__":
     )
     args, _ = parser.parse_known_args(sys.argv[1:])
     args_dict = copy.copy(vars(args))
+
+    print(f"Hello, {args_dict['name']}")
